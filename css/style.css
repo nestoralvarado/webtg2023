@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@100;300;500;700;900&family=Poppins:wght@100;300;500;700;900&family=Prompt:wght@100;300;500;700;900&family=Quicksand:wght@300;500;600;700&display=swap');
+
+@tutu{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    font-family:'Poppins', sans-serif;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 2.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out
+}
+.navbar .nav-flex-icons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+.navbar-light .navbar-toggler {
+    color: rgb(222, 97, 8);
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(131, 165, 152);
+}
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar{
+    background-color: #121212;
+    border-bottom: 1px solid #1a1a1a;
+}
+.dropdown-menu {
+    font-size: 1rem;
+}
+.lindo {
+    font-family: poppins;
+    color: rgba(145, 132, 116, 0.8);
+    background-color: black;
+}
+.hputa {
+    background-image: linear-gradient(90deg,rgb(145, 132, 115) 20%,rgb(251, 74, 52) 20%,rgb(251, 74, 52) 40%,rgb(131, 165, 152) 40%,rgb(131, 165, 152) 60%,rgb(40, 40, 40) 60%,rgba(40, 40, 40,1.00) 80%,rgb(214, 153, 32)80%);
+    height: 3px;
+}
+.to_you{
+    background-color: #121212;
+    background-image: url(../img/circulos.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 1000px;
+    height: 100%;
+}
+.introhead{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.bodyhead{
+    background-color: #111010
+}
+.text-primary {
+    --mdb-text-opacity: 0.7;
+    color: rgba(var(--mdb-warning-rgb),var(--mdb-text-opacity))!important;
+}
+.formu{
+    background-color: rgb(229, 231, 231);
+}
+.formulario{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.mapamio {
+    padding: 0px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+  /*oferta*/
+.circle {
+    position: relative;
+    display: block;
+    margin: 2em 0;
+    background-color: transparent;
+    color: #222;
+    text-align: center;
+    max-width: 100%;
+    width: 520px;
+}
+.circle__inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.circle__wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.circle__content {
+    display: table-cell;
+    padding: 1em 1em 1em 1.3em;
+    vertical-align: middle;
+    color: #F9B903;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;
+    font-weight: 700;
+}
+.circle:after {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgba(111, 148, 151, 0.01);
+    content: "";
+    border: 12px solid rgba(78, 64, 56, 0.3);
+}
+.modulecontent {
+    padding: 12px 0;
+}
+.ofert{
+    background-color: rgb(8, 7, 7);
+}
+.ta{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.circle:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+    border-radius: 50%;
+    background-color: rgb(10, 10, 10);
+    border: solid rgb(249, 183, 3);
+}
+.circle{
+    transform: scale(1);
+    transition-duration: .5s;
+}
+.ti{
+    width: 100%;
+}
+/*oferta end*/
+
+hr{
+    opacity: 0.4;
+}
+.hostc {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/greenland.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hostintro {
+    padding-top: 10%;
+    padding-bottom: 15%;
+    font-family: 'Poppins', sans-serif;
+    color: #383838;
+  }
+  .card-footer {
+    border-top: 2px solid #000000;
+}
+.precios{
+    background-color:rgb(131, 165, 152);
+}
+.planes{
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+.tutu{
+    background-color: rgb(22, 22, 22);
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    height: 100%;
+}
+.tutu2{
+    background-color: rgb(22, 22, 22);
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    height: 100%;
+    box-shadow: #000000 0px 0px 30px;
+    z-index: 1;
+    margin-top: -50px;
+}
+.planess{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.costo{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 5rem;
+}
+.dollar{
+    padding-top: 25px;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+.inclinado{
+    padding-top: 70px;
+    font-size: 1.3rem;
+}
+.iva{
+    padding-top: 70px;
+    font-size: 1.3rem;
+}
+.hputa3 {
+    background-image: linear-gradient(90deg,rgb(44, 45, 46) 20%,rgb(78, 64, 56) 20%,rgb(78, 64, 56) 40%,rgb(249, 185, 3) 40%,rgb(249, 185, 3) 60%,rgb(65, 96, 99) 60%,rgba(65, 96, 99) 80%,rgb(31, 31, 31)80%);
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .web011{
+    background-color: rgb(39, 49, 56);
+    padding: 0px;
+    color:rgb(199, 146, 235);
+    height: 100%;
+    min-height: 900px;
+    padding-top:1%;
+    padding-bottom: 2%;
+  }
+  .web022{
+    padding-top: 70px;
+    width: 90%;
+    height: auto;
+  }
+  .gnu{
+    border: 0px solid rgba(72, 183, 183, 0.108);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+  .grafico{
+    padding: 0px;
+    color: rgb(131, 165, 152);
+  }
+  .ac {
+    width: 100%;
+    border: rgb(29, 28, 27) 0px solid;
+    background: rgb(18, 18, 18);
+    padding: 10px;
+    line-height: 1.55;
+    border-radius: 0rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    -webkit-border-radius: 0rem;
+    -moz-border-radius: 0rem;
+    -ms-border-radius: 0rem;
+    -o-border-radius: 0rem;
+}
+.cweb {
+    background-color: rgb(19, 19, 19);
+}
+.cardyo {
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    color: rgb(184, 187, 38);
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+a {
+    color: #404040;
+}
+a :hover {
+    color: #f0d005;
+}
+.contact {
+    padding-top: 100px;
+    font-family: montserrat;
+    padding-bottom: 2%;
+  }
+  .enfranc {
+    background-color: #181818;
+    color: rgb(145, 132, 115);
+  }
+  .form-outline .form-control {
+    min-height: auto;
+    padding: 0.93em 0.75em;
+    border: 0;
+    background: #e8e6e6;
+    transition: all .2s linear;
+}
+.culu{
+    background-image: linear-gradient(90deg,rgb(44, 45, 46) 20%,rgb(78, 64, 56) 20%,rgb(78, 64, 56) 40%,rgb(249, 185, 3) 40%,rgb(212, 159, 12) 60%,rgb(65, 96, 99) 60%,rgba(65, 96, 99) 80%,rgb(31, 31, 31)80%);
+}
+.liii{
+    background-color: rgb(19, 19, 19);
+}
+.pornombre{
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+.dark-mode-button {
+    position:relative;
+    border-radius: 50%;
+    background-color: rgb(24, 24, 24);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+html.dark-mode{
+    filter: invert(100%);
+    -webkit-filter: invert();
+}
+html.dark-mode img{
+    filter: invert(100%);
+    -webkit-filter: invert();
+}
+.card2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: 0px solid rgba(72, 183, 183, 0.108);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
